@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LARS! Fashions</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default custom-navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">LARS! Fashions</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <header class="jumbotron text-center">
+        <div class="container">
+            <h1>Welcome to Adveqoo Fashions</h1>
+            <p>Showcasing elegant and contemporary designs</p>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About Me</h2>
+                <p>We are fashion designers with a passion for creating unique and trendsetting styles. Our goal is to inspire confidence through fashion.</p>
+                <p>At Adveqoo Fashions, we believe that fashion is more than just clothing; it's an art form, an expression of identity, and a way to inspire confidence. Our journey began with a vision to blend timeless elegance with contemporary trends, creating designs that resonate with modern fashion-forward individuals.</p>
+                <p>Our collections are a reflection of creativity, attention to detail, and passion for quality. Each piece is thoughtfully designed to highlight individuality and sophistication. From luxurious evening gowns to chic, everyday wear, we offer a versatile range that caters to every occasion.</p>
+                <p>We pride ourselves on our commitment to sustainable fashion, ensuring that our materials and processes leave a positive impact on both the environment and the communities we work with. At Adveqoo Fashions, we continuously strive to innovate, making fashion not only stylish but also meaningful.</p>
+                <p>Whether you're looking for a statement piece for a special event or a unique addition to your wardrobe, Adveqoo Fashions delivers designs that combine grace, style, and functionality. Our mission is simple: to empower you to feel your best, while wearing the very best.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="images/fd.jpg" class="img-responsive" alt="Fashion Designer">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portfolio" class="container">
+        <h2>Portfolio</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail portfolio-item">
+                    <img src="images/gown.jpg" alt="Design 1">
+                    <div class="caption">
+                        <h3>Design 1</h3>
+                        <p>Elegant evening gown with intricate details.</p>
+                    </div>
+                    <div class="details-overlay">
+                        <p>This gown is made from luxurious silk fabric with handcrafted embellishments, ideal for formal events and special occasions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail portfolio-item">
+                    <img src="images/casual.jpg" alt="Design 2">
+                    <div class="caption">
+                        <h3>Design 2</h3>
+                        <p>Casual chic outfit perfect for any occasion.</p>
+                    </div>
+                    <div class="details-overlay">
+                        <p>This outfit blends comfort and style with premium cotton material, making it versatile for everyday wear.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail portfolio-item">
+                    <img src="images/business.jpg" alt="Design 3">
+                    <div class="caption">
+                        <h3>Design 3</h3>
+                        <p>Modern, stylish business attire.</p>
+                    </div>
+                    <div class="details-overlay">
+                        <p>Designed for the professional woman, this outfit combines structure and elegance, perfect for business meetings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<section id="services" class="container">
+    <h2>Services</h2>
+    <div class="row">
+        <div class="col-md-4 service-box">
+            <h3>Custom Designs</h3>
+            <p>Creating one-of-a-kind pieces tailored to your preferences.</p>
+        </div>
+        <div class="col-md-4 service-box">
+            <h3>Consultation</h3>
+            <p>Providing fashion advice for individuals and businesses.</p>
+        </div>
+        <div class="col-md-4 service-box">
+            <h3>Runway Collections</h3>
+            <p>Developing fashion-forward runway collections.</p>
+        </div>
+    </div>
+</section>
+
+
+ 
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom">Send Message</button>
+        </form>
+    </section>
+
+<a href="#" class="scroll-to-top" id="scrollToTopBtn">
+    <i class="fas fa-arrow-up"></i> 
+</a>
+
+
+    <footer class="text-center">
+        <p>&copy; 2024 LARS! Fashions. All rights reserved.</p>
+    </footer>
+    <script>
+        
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetElement = document.querySelector(this.getAttribute('href'));
+                window.scrollTo({
+                    top: targetElement.offsetTop - 50, 
+                    behavior: 'smooth'
+                });
+            });
+        });
+        </script>
+        
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
