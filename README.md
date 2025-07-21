@@ -6,8 +6,9 @@ A basic responsive fashion design website built using **HTML**, **CSS**, and **J
 
 ## 🖼️ Screenshots
 
-![Homepage Screenshot](images/screenshot1.png)
-![Gallery Screenshot](images/screenshot2.png)
+![Homepage Screenshot](screens/Screenshot1.png)
+![Gallery Screenshot](screens/Screenshot2.png)
+![Services Screenshot](screens/Screenshot3.png)
 
 ## 🚀 Features
 
@@ -30,9 +31,10 @@ A basic responsive fashion design website built using **HTML**, **CSS**, and **J
   # Using VS Code Live Server Extension
 
 📌 Technologies Used
-HTML5
 
-CSS3 
+-HTML5
 
-JavaScript 
+-CSS3 
+
+-JavaScript 
 
