@@ -6,8 +6,13 @@ A basic responsive fashion design website built using **HTML**, **CSS**, and **J
 
 ## 🖼️ Screenshots
 
+# Home Page
 ![Homepage Screenshot](screens/Screenshot1.png)
+
+# Gallery
 ![Gallery Screenshot](screens/Screenshot2.png)
+
+# Services
 ![Services Screenshot](screens/Screenshot3.png)
 
 ## 🚀 Features
@@ -38,3 +43,4 @@ A basic responsive fashion design website built using **HTML**, **CSS**, and **J
 
 -JavaScript 
 
+# 🔗 Live Demo
