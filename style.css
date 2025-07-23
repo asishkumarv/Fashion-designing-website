@@ -90,7 +90,7 @@ body {
 
 #about {
     margin-top: 30px;
-    margin-left: 250px;
+   /* margin-left: 250px; */
 }
 
 
@@ -131,12 +131,13 @@ body {
     color: white; 
 }
 
+ /* 
 
 .row {
-    display: flex;
+   /* display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-}
+    justify-content: space-between; */
+*/
 
 .service-box {
     flex: 0 0 32%;
@@ -249,4 +250,31 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .jumbotron {
+        height: auto;
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    #about img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .portfolio-item,
+    .service-box {
+        margin-bottom: 20px;
+    }
+
+    .scroll-to-top {
+        bottom: 15px;
+        right: 15px;
+        padding: 10px;
+        font-size: 20px;
+    }
 }
